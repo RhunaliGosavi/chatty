@@ -1,0 +1,23 @@
+.menuPopup{
+    border: 1px solid #a3c4e8;
+    width: 45% !important;
+    height: 65px;
+    position: absolute !important;
+    z-index: 9999;
+    right: 100%;
+    bottom: 390px;
+    background-color: #fff;
+    cursor: pointer;
+}
+.borderBottom{
+    border-bottom: 1px solid #a3c4e8;
+}
+.hover:hover{
+    background-color:  #0068b2
+}
+.menu-icon-color{
+    color: #a3c4e8;
+}
+.menu-icon-color:hover,.hover:hover{
+    color:#fff
+}

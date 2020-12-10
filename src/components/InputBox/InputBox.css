@@ -1,0 +1,109 @@
+.styles_triggerRecorder__3zSl0{
+    display: flex;
+    padding: 0 15px;
+    background: #004F80;
+    outline: none;
+    border: none;
+  }
+  .styles_trigger__3zSl0{
+    display: flex;
+    padding: 10px 15px !important;
+    background: #004F80;
+    outline: none;
+    border: none;
+  }
+  .tooltipTrigger {
+    position: relative !important;
+    display: inline-block !important;
+    opacity: 1 !important;
+  }
+  
+  .tooltipTrigger .tooltiptext {
+    visibility: hidden;
+    width: 80px;
+    color: #0c0c0c;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 36px;
+    margin-left: -60px;
+    border:1px solid #004f80;
+  }
+  
+  .tooltipTrigger:hover .tooltiptext {
+    visibility: visible;
+  }
+  .InputBox {
+    /* bottom: 0;*/
+    position: relative; 
+    /* width: 95%; */
+    /* float: right; */
+    background-color: white;
+    z-index: 10;
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0px 2px rgba(0, 0, 0, 0.24);   */
+  }
+  .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .input-field {
+    font-size: 1rem;
+  
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+  
+    padding: 15px 10px;
+  
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .send-wrapper {
+    height: 100%;
+    padding: 5px;
+  }
+  .send {
+    height: 100%;
+    margin-right: 10px;
+    font-size: 2.3rem;
+    border: none;
+    outline: none;
+    transition: 0.2s all;
+    color: #ccc;
+  }
+  .send:hover {
+    color: #4d6f8b;
+  }
+  
+  .sendicon {
+    height: 20px;
+    user-select: none;
+    color: grey;
+  }
+  .styles_wrapper__3KXDn.styles_open__2Xu6Q .styles_sentence_completions__3E0zt{display: none;}
+  /* @media (max-width: 650px) {
+    .InputBox{  width: 88%;}
+  }
+  
+  @media (max-width: 550px) {
+    .InputBox{  width: 85%;}
+  } */
+  
+  /* iPad Pro Portrait and Landscape */
+  @media only screen 
+    and (min-height: 1025px) 
+    and (max-width: 1366px) 
+    and (-webkit-min-device-pixel-ratio: 1.5)
+    and (orientation : Landscape) {
+      .InputBox{width: 90%;}
+    }
+  
+  

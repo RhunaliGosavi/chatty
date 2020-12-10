@@ -1,0 +1,19 @@
+.bg-config {
+    background-color: #489F9F;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 35px;
+    text-align: center;
+    position: relative;
+}
+
+.title{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.icon-color{
+    color: #ffff;
+    cursor: pointer;
+}

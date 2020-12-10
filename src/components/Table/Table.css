@@ -1,0 +1,32 @@
+.chart-table {
+  width: 100%;
+  height: calc(100% - 40px);
+}
+.ReactTable {
+  height: 100%;
+  max-height: 35vh !important;
+ 
+}
+
+.message-bot-table .inner .ReactTable {
+  height: calc(100% - 40px);
+}
+
+.RTable-custom-pagination {
+  padding: 5px 10px;
+  color: #8a8a8a;
+  box-shadow: 0px -1px 1px -1px rgba(0, 0, 0, 0.2);
+}
+
+.fa-info {
+  margin-right: 10px;
+}
+
+.rt-th,
+.rt-td {
+  padding: 0 !important;
+}
+.ReactTable .rt-thead,
+.ReactTable .rt-tbody {
+  overflow: unset !important;
+}

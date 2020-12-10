@@ -1,0 +1,29 @@
+.Image img {
+  max-height: 260px;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.Image.big img {
+  max-height: unset;
+}
+
+.Image div {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.Image.big div {
+  margin-bottom: 10px;
+}
+
+.download-button {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background: rgba(172, 255, 223, 0.75);
+  margin-left: 10px;
+  cursor: pointer;
+}

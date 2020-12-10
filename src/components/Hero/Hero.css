@@ -1,0 +1,58 @@
+.Hero {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.Hero-left {
+  background: #4d6983;
+  border-radius: 0 50px 50px 0;
+  padding: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Hero-left.right {
+  border-radius: 50px 0 0 50px;
+}
+.Hero-right {
+  padding-right: 50px;
+  text-align: center;
+  flex: 1;
+}
+
+.Hero-name {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.Hero-powered {
+  color: #ccc;
+  margin-top: -15px;
+}
+.Hero-user {
+  margin-top: -10px;
+}
+.Hero-user-name,
+.Hero-logout-message {
+  border-bottom: 2px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+.Hero-logout-message {
+  display: none;
+}
+.Hero-user:hover .Hero-logout-message {
+  display: inline;
+}
+.Hero-user:hover .Hero-user-name {
+  display: none;
+}
+
+.swal-text {
+  text-align: center;
+}

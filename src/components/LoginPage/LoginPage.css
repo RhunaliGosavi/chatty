@@ -1,0 +1,107 @@
+.LoginPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.LoginPage-widget {
+  background-color: #f5f5f5;
+  padding: 50px 100px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+.LoginPage-header {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+.LoginPage-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.LoginPage-login-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.LoginPage-login-item-name {
+  margin: 5px 10px;
+}
+.LoginPage-login-item-input {
+  border: none;
+  outline: none;
+  /* margin-left: 10px; */
+  flex: 1;
+  padding: 5px 20px;
+  min-width: 150px;
+}
+.LoginPage-button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.LoginPage-button {
+  display: inline;
+  padding: 10px 20px;
+  background: #4d6983;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.LoginPage-button:hover {
+  background-color: #6e93b5;
+}
+.LoginPage-powerd {
+  margin-top: 5px;
+  color: #ccc;
+}
+
+.Login-error {
+  display: none;
+  text-align: center;
+  color: red;
+}
+.Login-error.show {
+  display: block;
+}
+
+.login-loading {
+  opacity: 0.5;
+}
+
+.LoginPage-signup {
+  margin-top: 10px;
+  color: #ccc;
+  text-align: center;
+}
+
+.LoginPage-signup-button {
+  background: none;
+  border: none;
+  outline: none;
+  color: #15729a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.LoginPage-signup-button:hover {
+  font-weight: bold;
+}
+@media only screen and (max-width: 415px){
+  .LoginPage-header {
+    font-size: 1.8rem;
+  }
+}

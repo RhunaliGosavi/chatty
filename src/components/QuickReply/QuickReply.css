@@ -1,0 +1,39 @@
+.QuickReply {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 5px;
+}
+
+.QuickReply-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 5px;
+}
+
+.QuickReply-button {
+  background-color: #e1f4ff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 20px;
+  margin: 3px;
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.QuickReply-button:hover {
+  background-color: #d2edfe;
+}
+
+.QuickReply-others {
+  width: 350px;
+}
+@media only screen and (max-width: 600px) {
+  .QuickReply-others {
+    width: 300px;
+  }
+}

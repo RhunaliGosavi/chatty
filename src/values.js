@@ -1,0 +1,41 @@
+export const modalStyle = {
+  modal: {
+    borderRadius: 5,
+    width: '100vw',
+    maxWidth: '1000px',
+    display: 'flex',
+    flexDirection: 'column',
+    border: '1px solid #ccc',
+  },
+  closeIcon: {
+    backgroundColor: '#fff',
+    borderRadius: 50,
+    padding: 5,
+    marginRight: -25,
+    marginTop: -25,
+    border: '1px solid #ccc',
+  },
+}
+
+export const defaultColors = [
+  'rgb(49, 130, 189)',
+  'rgb(107, 174, 214)',
+  'rgb(158, 202, 225)',
+  'rgb(198, 219, 239)',
+  'rgb(230, 85, 13)',
+  'rgb(253, 141, 60)',
+  'rgb(253, 174, 107)',
+  'rgb(253, 208, 162)',
+  'rgb(49, 163, 84)',
+  'rgb(116, 196, 118)',
+  'rgb(161, 217, 155)',
+  'rgb(199, 233, 192)',
+  'rgb(117, 107, 177)',
+  'rgb(158, 154, 200)',
+  'rgb(188, 189, 220)',
+  'rgb(218, 218, 235)',
+  'rgb(99, 99, 99)',
+  'rgb(150, 150, 150)',
+  'rgb(189, 189, 189)',
+  'rgb(217, 217, 217)',
+]

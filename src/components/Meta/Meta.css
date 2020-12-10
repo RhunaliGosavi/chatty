@@ -1,0 +1,16 @@
+.Meta {
+  height: 100%;
+  width: 50%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.Meta-widgets {
+  overflow: auto;
+  flex: 1;
+}
+@media only screen and (max-width: 1000px) {
+  .Meta {
+    display: none;
+  }
+}

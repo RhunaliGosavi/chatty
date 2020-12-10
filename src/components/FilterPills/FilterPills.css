@@ -1,0 +1,139 @@
+.tooltip {
+  position: relative !important;
+  display: inline-block !important;
+  opacity: 1 !important;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  color: #0c0c0c;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 36px;
+  margin-left: -12px;
+  border:1px solid #004F80;
+  background-color: #fff;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.FilterPills-inner::-webkit-scrollbar{
+  height: 5px;
+  background-color: gray;
+  }
+  .FilterPills-inner::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 10px white;
+    }
+    
+    .FilterPills-inner::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    }
+.FilterPills {
+  /* position: absolute;
+  bottom: 43px; */
+  display: flex;
+  flex-wrap: nowrap;
+  /* display: block; */
+  background-color: rgba(128, 128, 128, 0.24);
+  border-radius: 0 0 5px 5px;
+  /* width: 100%; */
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+}
+.FilterPills-clear-chat {
+  padding: 10px 13px;
+  /* padding-left: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 50px; */
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ddd;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.FilterPills-clear-chat:hover {
+  background-color: #ccc;
+}
+.FilterPills-clear-chat i {
+  margin-right: 5px;
+}
+.FilterPills-empty {
+  text-align: center;
+  padding: 10px;
+  color: #ccc;
+  display: inline-block;
+}
+.FilterPills-inner {
+  padding: 0px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: auto;
+  overflow: auto;
+  overflow-y:hidden;
+  display: inline-block;
+}
+.FilterPills-pill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-shrink: 0;
+  height: 30px;
+  overflow: hidden;
+  /* position: relative; */
+}
+.FilterPills-name {
+  padding: 0px 2px;
+  /* white-space: nowrap; */
+}
+.FilterPills-value {
+  padding: 0px 1px;
+  /* white-space: nowrap; */
+}
+.FilterPills-remove {
+  background-color: rgba(255, 163, 163, 0.5);
+  padding: 0px 2px;
+  border-left: 1px solid rgba(255, 163, 163, 0.5);
+  cursor: pointer;
+}
+
+.FilterPills-pill:hover .FilterPills-remove {
+  background-color: rgba(255, 163, 163, 0.9);
+}
+.FilterPills-pill:hover .FilterPills-name {
+  opacity: 0.3;
+}
+.FilterPills-pill:hover .FilterPills-value {
+  opacity: 0.3;
+}
+.intentBtn {
+  /* cursor: default !important;
+  padding-top: 5px; */
+  text-decoration: none;
+  border: 1px solid #007bff;
+  border-radius: .25rem;
+  margin-top: .16rem;
+  background: white;
+}
+.intentBtn .btn{
+  /* cursor: default !important; */
+  border-radius: 0px;
+}
+.btn-addon {
+  padding: 6px 8px;
+  cursor: pointer;
+}

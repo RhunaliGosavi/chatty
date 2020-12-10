@@ -1,0 +1,7 @@
+.Chart {
+  height: 37vh;
+}
+.Chart.mini {
+  height: calc(100% - 40px);
+  margin-top: 0;
+}

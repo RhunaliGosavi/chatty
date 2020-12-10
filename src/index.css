@@ -1,0 +1,48 @@
+* {
+  /* font-family: 'Prompt', sans-serif; */
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-family: Helvetica;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+.App::before {
+  position: fixed;
+  z-index: -1;
+  right: -5px;
+  left: -5px;
+  display: block;
+  width: 110vw;
+  height: 110vh;
+  margin: 0;
+  content: '';
+}
+
+.App {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  justify-content: flex-end;
+  width: 100vw;
+  height: 100vh;
+}
+
+.actions {
+  margin-bottom: 3px;
+  color: #cccccc;
+}
+
+@keyframes move {
+  0% {
+    margin-left: 0;
+  }
+
+  50% {
+    margin-left: 80%;
+  }
+}
